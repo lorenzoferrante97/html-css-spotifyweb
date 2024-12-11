@@ -3,5 +3,12 @@
 /* 's' query (smartphone landscape / tablet portrait) */
 @media screen and (min-width: 576px) {
 
-    
+    /* logo */
+    #logo-extended {
+        display: inline-block;
+    }
+    #logo-mark {
+        display: none;
+    }
+
 }
