@@ -3,6 +3,14 @@
 /* 's' query (smartphone landscape / tablet portrait) */
 @media screen and (min-width: 576px) {
 
+    /* --- global styles --- */
+    p, span, li {
+        font-size: var(--font-size-m);
+        font-weight: var(--font-weight-s);
+        line-height: var(--font-lh-body);
+        color: var(--color-neutral-grey);
+    }
+
     /* containers */
     header {
         flex-basis: 36%;

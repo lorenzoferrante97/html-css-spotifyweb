@@ -20,6 +20,7 @@
     --font-size-l: 1.25rem;
     --font-size-m: 1rem;
     --font-size-s: 0.75rem;
+    --font-size-xs: 0.5rem;
 
     --font-weight-l: 800;
     --font-weight-m: 700;
@@ -63,8 +64,8 @@ html {
 
 /* --- global styles --- */
 
-p, span, li {
-    font-size: var(--font-size-m);
+p, span, li, button {
+    font-size: var(--font-size-s);
     font-weight: var(--font-weight-s);
     line-height: var(--font-lh-body);
     color: var(--color-neutral-grey);
@@ -77,13 +78,13 @@ p, span, li {
     color: var(--color-neutral-white);
 }
 .text-big {
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-s);
     font-weight: var(--font-weight-m);
     line-height: var(--font-lh-headings);
     color: var(--color-neutral-white);
 }
 .text-small {
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-xs);
     font-weight: var(--font-weight-s);
     line-height: var(--font-lh-body);
     color: var(--color-neutral-grey);
@@ -157,9 +158,8 @@ footer {
     height: 88vh;
 }
 #content #upgrade {
-    height: 8%;
+    height: 12%;
     width: 100%;
-
     background-color: var(--color-neutral-black-900);
 }
 main {
@@ -198,4 +198,14 @@ main {
     border-radius: 50%;
     background-color: var(--color-neutral-lightgrey);
     overflow: hidden;
+}
+
+/* upgrade button */
+button {
+    background-color: transparent;
+    border: 1px solid var(--color-neutral-white);
+    text-transform: uppercase;
+    padding: 8px 24px;
+    border-radius: 900px;
+    color: var(--color-neutral-white);
 }
