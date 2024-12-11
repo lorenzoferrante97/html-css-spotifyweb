@@ -47,10 +47,19 @@ img {
 ul {
     list-style-type: none;
 }
+/* button reset */
+button {
+    border: none;
+}
+
+
 
 html {
     font-family: "Urbanist", sans-serif;
 }
+
+
+
 
 /* --- global styles --- */
 
