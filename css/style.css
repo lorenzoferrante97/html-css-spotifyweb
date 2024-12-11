@@ -127,8 +127,7 @@ i {
 
 header {
     height: 88vh;
-    
-    width: 12%;
+    flex-basis: 12%;
     background-color: var(--color-neutral-black);
 }
 footer {
