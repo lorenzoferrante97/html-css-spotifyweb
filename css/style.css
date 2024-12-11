@@ -74,17 +74,37 @@ p {
     color: var(--color-neutral-grey);
 }
 
+/* flex rules */
+
+.flex-row {
+    display: flex;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.between {
+    justify-content: space-between;
+}
+.perfect-center {
+    justify-content: center;
+    align-items: center;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+
+
+
 /* ---- CSS ---- */
 
 /* -- containers -- */
 .wrapper {
     height: 100vh;
     width: 100%;
-
-    display: flex;
-    flex-flow: row wrap;
-
-    background-color: blue;
 }
 
 header {
