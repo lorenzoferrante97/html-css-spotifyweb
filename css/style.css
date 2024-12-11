@@ -79,11 +79,16 @@ p, span, li {
     line-height: var(--font-lh-body);
     color: var(--color-neutral-grey);
 }
-i {
+/* icons container */
+.icon-box {
     min-width: 12px;
     aspect-ratio: 1;
     color: var(--color-neutral-white);
     padding: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* flex rules */
@@ -130,7 +135,7 @@ header {
     height: 88vh;
     flex-basis: 12%;
     background-color: var(--color-neutral-black);
-    padding: 12px 8px;
+    /* padding: 12px 8px; */
 }
 footer {
     width: 100%;
@@ -158,6 +163,15 @@ main {
 }
 
 /* -- header -- */
+
+/* logo box */
+.logo-box, .logo-box figure {
+    width: 80%;
+    max-width: 32px;
+}
+.logo-box figure {
+    width: 100%;
+}
 
 /* macro-sezioni header */
 .menu-main, .menu-sec {
