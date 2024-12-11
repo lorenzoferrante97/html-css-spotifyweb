@@ -50,7 +50,7 @@ html {
 
 /* --- global styles --- */
 
-p {
+p, span, li {
     font-size: var(--font-size-m);
     font-weight: var(--font-weight-s);
     line-height: var(--font-lh-body);
@@ -147,4 +147,15 @@ main {
     overflow: auto;
 
     background-color: var(--color-neutral-black-800);
+}
+
+/* -- header -- */
+
+/* profile pic user account */
+.menu-account > figure {
+    width: 24px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--color-neutral-lightgrey);
+    overflow: hidden;
 }
