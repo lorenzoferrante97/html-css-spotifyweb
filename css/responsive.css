@@ -11,12 +11,25 @@
         flex-basis: 64%;
     }
 
-    /* logo */
+
+
+    /* logo display */
     #logo-extended {
         display: inline-block;
     }
     #logo-mark {
         display: none;
+    }
+    /* logo */
+    .logo-box {
+        width: 60%;
+        max-width: none;
+        padding-left: 16px;
+    }
+
+    /* menu main alignment */
+    .menu-main {
+        align-items: flex-start;
     }
 
 }
