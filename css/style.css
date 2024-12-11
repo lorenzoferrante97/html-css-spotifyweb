@@ -75,6 +75,11 @@ p {
     line-height: var(--font-lh-body);
     color: var(--color-neutral-grey);
 }
+i {
+    min-width: 12px;
+    aspect-ratio: 1;
+    color: var(--color-neutral-white);
+}
 
 /* flex rules */
 
