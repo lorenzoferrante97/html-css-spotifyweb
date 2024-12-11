@@ -1,3 +1,5 @@
+/* ---------- MOBILE FIRST ---------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap');
 
 /* --- root --- */
@@ -97,6 +99,10 @@ p {
     justify-content: flex-end;
 }
 
+/* display responsive */
+.hide {
+    display: none;
+}
 
 
 /* ---- CSS ---- */
