@@ -11,11 +11,20 @@
         flex-basis: 64%;
     }
 
+    .icon-box.xl {
+        max-width: 48px;
+    }
+
 
 
     /* display inline-block elements */
     #logo-extended, .nav-label {
         display: inline-block;
+    }
+    /* display flex elements */
+    .menu-playlist {
+        display: flex;
+        flex-direction: column;
     }
     /* hide elements */
     #logo-mark {
@@ -53,7 +62,12 @@
     }
     .nav-main .nav-active p {
         color: var(--color-neutral-white);
+    }
 
+    /* add playlist */
+    .icon-box.addplaylist {
+        background-color: var(--color-neutral-lightgrey);
+        color: var(--color-neutral-black);
     }
 
 }
