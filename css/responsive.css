@@ -13,10 +13,11 @@
 
 
 
-    /* logo display */
-    #logo-extended {
+    /* display inline-block elements */
+    #logo-extended, .nav-label {
         display: inline-block;
     }
+    /* hide elements */
     #logo-mark {
         display: none;
     }
@@ -30,6 +31,18 @@
     /* menu main alignment */
     .menu-main {
         align-items: flex-start;
+    }
+
+    /* nav main list */
+    .nav-main > ul {
+        align-items: flex-start;
+    }
+
+    /* nav main list elements */
+    .nav-main > ul > li {
+        display: flex;
+        flex-direction: row;
+        padding-left: 16px;
     }
 
 }
