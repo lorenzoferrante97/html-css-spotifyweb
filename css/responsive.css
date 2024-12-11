@@ -3,6 +3,14 @@
 /* 's' query (smartphone landscape / tablet portrait) */
 @media screen and (min-width: 576px) {
 
+    /* containers */
+    header {
+        flex-basis: 36%;
+    }
+    #content {
+        flex-basis: 64%;
+    }
+
     /* logo */
     #logo-extended {
         display: inline-block;
