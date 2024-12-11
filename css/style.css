@@ -4,10 +4,14 @@
 :root {
 
     /* colors */
-    --color-neutral-black: #121212;
+    --color-neutral-black: #000000;
+    --color-neutral-black-900: #121212;
+    --color-neutral-black-800: #161616;
+    --color-neutral-black-700: #212121;
     --color-neutrasl-darkgrey: #343434;
     --color-neutral-grey: #4e4e4e;
     --color-neutral-lightgrey: #787878;
+    --color-neutral-white: #e1e1e1;
     --color-accent: #9ebd6d;
 
     --font-size-xl: 2rem;
@@ -18,6 +22,9 @@
     --font-weight-l: 700;
     --font-weight-m: 600;
     --font-weight-s: 400;
+
+    --font-lh-headings: 125%;
+    --font-lh-body: 140%
 }
 
 /* --- reset --- */
@@ -37,4 +44,32 @@ img {
 
 html {
     font-family: "Urbanist", sans-serif;
+}
+
+/* --- global styles --- */
+
+p {
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-s);
+    line-height: var(--font-lh-body);
+    color: var(--color-neutral-grey);
+}
+
+.text-headings {
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-l);
+    line-height: var(--font-lh-headings);
+    color: var(--color-neutral-white);
+}
+.text-big {
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-m);
+    line-height: var(--font-lh-headings);
+    color: var(--color-neutral-white);
+}
+.text-big {
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-s);
+    line-height: var(--font-lh-body);
+    color: var(--color-neutral-grey);
 }
