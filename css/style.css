@@ -135,7 +135,7 @@ header {
     height: 88vh;
     flex-basis: 12%;
     background-color: var(--color-neutral-black);
-    /* padding: 12px 8px; */
+    padding: 12px 0;
 }
 footer {
     width: 100%;
@@ -165,8 +165,8 @@ main {
 /* -- header -- */
 
 /* logo box */
-.logo-box, .logo-box figure {
-    width: 80%;
+.logo-box {
+    width: 60%;
     max-width: 32px;
 }
 .logo-box figure {
