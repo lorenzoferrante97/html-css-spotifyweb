@@ -12,7 +12,7 @@
     }
 
     .icon-box.xl {
-        max-width: 48px;
+        width: 32px;
     }
 
 
@@ -21,15 +21,23 @@
     #logo-extended, .nav-label {
         display: inline-block;
     }
-    /* display flex elements */
-    .menu-playlist {
+    /* display flex-column elements */
+    .menu-playlist, .playlist-list ul {
         display: flex;
         flex-direction: column;
+    }
+    /* display flex-row elements */
+    .playlist-add {
+        display: flex;
+        flex-direction: row;
     }
     /* hide elements */
     #logo-mark {
         display: none;
     }
+
+
+
     /* logo */
     .logo-box {
         width: 60%;
@@ -70,4 +78,22 @@
         color: var(--color-neutral-black);
     }
 
+    /* playlist list elements */
+    .playlist-list ul li {
+        padding: 4px 0px;
+    }
+    /* menu playlist */
+    .menu-playlist {
+        gap: 12px;
+        padding-left: 16px;
+    }
+    /* playlist add */
+    .playlist-add {
+        align-items: center;
+        gap: 8px;
+    }
+    /* playlist list */
+    .playlist-list ul {
+        gap: 4px;
+    }
 }
