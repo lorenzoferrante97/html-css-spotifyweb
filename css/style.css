@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap');
 
+/* --- root --- */
+:root {
+
+    /* colors */
+    --color-neutral-black: #121212;
+    --color-neutrasl-darkgrey: #343434;
+    --color-neutral-grey: #4e4e4e;
+    --color-neutral-lightgrey: #787878;
+    --color-accent: #9ebd6d;
+
+    --font-size-xl: 2rem;
+    --font-size-l: 1.25rem;
+    --font-size-m: 1rem;
+    --font-size-s: 0.75rem;
+
+    --font-weight-l: 700;
+    --font-weight-m: 600;
+    --font-weight-s: 400;
+}
+
 /* --- reset --- */
 * {
     margin: 0;
