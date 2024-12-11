@@ -30,18 +30,19 @@
 
     /* menu main alignment */
     .menu-main {
-        align-items: flex-start;
+        align-items: stretch;
     }
 
     /* nav main list */
     .nav-main > ul {
-        align-items: flex-start;
+        align-items: stretch;
     }
 
     /* nav main list elements */
     .nav-main > ul > li {
         display: flex;
         flex-direction: row;
+        padding: 4px 8px;
         padding-left: 16px;
     }
 
