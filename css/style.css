@@ -43,6 +43,10 @@ img {
     display: block;
     max-width: 100%;
 }
+/* reset list */
+ul {
+    list-style-type: none;
+}
 
 html {
     font-family: "Urbanist", sans-serif;
@@ -95,6 +99,9 @@ i {
 }
 .between {
     justify-content: space-between;
+}
+.align-i-center {
+    align-items: center;
 }
 .perfect-center {
     justify-content: center;
