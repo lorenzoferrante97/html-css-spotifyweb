@@ -14,16 +14,16 @@
     --color-neutral-grey: #4e4e4e;
     --color-neutral-lightgrey: #787878;
     --color-neutral-white: #e1e1e1;
-    --color-accent: #9ebd6d;
+    --color-accent: #59ff00;
 
     --font-size-xl: 2rem;
     --font-size-l: 1.25rem;
     --font-size-m: 1rem;
     --font-size-s: 0.75rem;
 
-    --font-weight-l: 700;
-    --font-weight-m: 600;
-    --font-weight-s: 400;
+    --font-weight-l: 800;
+    --font-weight-m: 700;
+    --font-weight-s: 600;
 
     --font-lh-headings: 125%;
     --font-lh-body: 140%
@@ -73,7 +73,7 @@ p, span, li {
     line-height: var(--font-lh-headings);
     color: var(--color-neutral-white);
 }
-.text-big {
+.text-small {
     font-size: var(--font-size-s);
     font-weight: var(--font-weight-s);
     line-height: var(--font-lh-body);
