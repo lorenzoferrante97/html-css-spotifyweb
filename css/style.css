@@ -174,8 +174,8 @@ main {
 }
 
 /* macro-sezioni header */
-.menu-main, .menu-sec {
-    gap: 12px;
+.menu-main {
+    gap: 24px;
 }
 /* navigazione principale header (home..) */
 .nav-main ul {
