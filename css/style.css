@@ -83,6 +83,7 @@ i {
     min-width: 12px;
     aspect-ratio: 1;
     color: var(--color-neutral-white);
+    padding: 4px;
 }
 
 /* flex rules */
@@ -129,6 +130,7 @@ header {
     height: 88vh;
     flex-basis: 12%;
     background-color: var(--color-neutral-black);
+    padding: 12px 8px;
 }
 footer {
     width: 100%;
@@ -156,6 +158,15 @@ main {
 }
 
 /* -- header -- */
+
+/* macro-sezioni header */
+.menu-main, .menu-sec {
+    gap: 12px;
+}
+/* navigazione principale header (home..) */
+.nav-main ul {
+    gap: 4px;
+}
 
 /* profile pic user account */
 .menu-account > figure {
