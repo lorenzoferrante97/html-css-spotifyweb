@@ -58,7 +58,7 @@
         flex-direction: row;
     }
     /* hide elements */
-    #logo-mark {
+    #logo-mark, .player-right-volume {
         display: none;
     }
 
@@ -150,6 +150,7 @@
 
     /* player right */
     .player-right {
+        justify-content: flex-end;
         gap: 8px;
     }
     /* player right volume */
@@ -184,6 +185,12 @@
         line-height: var(--font-lh-body);
         color: var(--color-neutral-grey);
     }
+
+    /* display flex elements */
+    .player-right-volume {
+        display: flex;
+    }
+
 
     /* containers */
     header {
