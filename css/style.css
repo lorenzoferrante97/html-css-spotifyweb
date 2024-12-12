@@ -266,6 +266,5 @@ main {
 
 /* artists img */
 #artists-popular .card-cover {
-    width: 100%;
     border-radius: 50%;
 }
