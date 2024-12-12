@@ -176,10 +176,7 @@
         color: var(--color-neutral-grey);
     }
 
-
-
-
-
+    /* containers */
     header {
         flex-basis: 28%;
         padding: 12px 0;
@@ -187,6 +184,23 @@
 
     #content {
         flex-basis: 72%;
+    }
+
+
+
+    #nav-primary > ul {
+        gap: 20px;
+    }
+
+    /* song container */
+    .song-container {
+        justify-content: flex-start;
+    }
+
+    /* card */
+    .card {
+        flex-basis: calc((100% / 3) - 12px);
+        gap: 16px;
     }
 }
 
