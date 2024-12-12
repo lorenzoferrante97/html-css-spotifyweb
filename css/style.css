@@ -214,3 +214,16 @@ button {
     border-radius: 900px;
     color: var(--color-neutral-white);
 }
+
+/* --- main --- */
+
+/* main */
+main {
+    padding: 0 4%;
+}
+
+/* nav primary list */
+
+#nav-primary > ul {
+    gap: 20px 12px;
+}
