@@ -16,6 +16,12 @@
         line-height: var(--font-lh-headings);
         color: var(--color-neutral-white);
     }
+    .text-small {
+        font-size: var(--font-size-s);
+        font-weight: var(--font-weight-s);
+        line-height: var(--font-lh-body);
+        color: var(--color-neutral-grey);
+    }
 
     /* containers */
     header {
@@ -44,7 +50,10 @@
         flex-direction: column;
     }
     /* display flex-row elements */
-    .playlist-add, .player-right {
+    .playlist-add,
+    .player-right,
+    .player-center-time p, 
+    .player-center-actions span {
         display: flex;
         flex-direction: row;
     }
