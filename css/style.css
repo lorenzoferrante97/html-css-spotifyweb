@@ -231,6 +231,7 @@ main {
 /* song container */
 .song-container {
     gap: 12px;
+    text-align: center;
 }
 
 /* card */
