@@ -109,10 +109,6 @@
     .playlist-list ul {
         gap: 4px;
     }
-    /* heading into playlist */
-    .menu-playlist .text-big {
-        text-transform: uppercase;
-    }
 
     /* menu sec */
     .menu-sec {
