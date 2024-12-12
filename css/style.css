@@ -248,9 +248,9 @@ main {
 
 /* -- Recently Played + Suggestions -- */
 
-/* recently-played */
-#recently-played, #suggestions {
-    gap: 28px;
+/* home sections */
+#recently-played, #suggestions, #artists-popular {
+    gap: 20px;
 }
 /* song container */
 .song-container {
@@ -258,7 +258,7 @@ main {
     text-align: center;
 }
 
-/* suggestions header */
-#suggestions .suggestions-header {
+/* home sections header */
+.home-sections-header {
     gap: 8px;
 }
