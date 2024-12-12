@@ -272,6 +272,10 @@ main {
 
 /* -- footer -- */
 
+footer {
+    padding: 0 16px;
+}
+
 /* player left icons */
 footer .player-left-actions i {
     color: var(--color-neutral-grey);
@@ -291,4 +295,18 @@ footer .player-current {
 footer .player-current > figure {
     width: 100%;
     max-width: 28px;
+}
+
+/* player center */
+
+/* player center actions */
+.player-center-actions {
+    gap: 8px;
+}
+/* play icon */
+.player-center-actions .play {
+    width: 40px;
+}
+.player-center-actions .play i {
+    font-size: 24px;
 }
