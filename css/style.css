@@ -226,3 +226,18 @@ main {
 #nav-primary > ul {
     gap: 20px 12px;
 }
+
+
+/* song container */
+.song-container {
+    gap: 12px;
+}
+
+/* card */
+.card {
+    flex-basis: calc((100% / 2) - 12px);
+    gap: 16px;
+}
+.card .card-info {
+    gap: 4px;
+}
