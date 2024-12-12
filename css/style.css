@@ -200,6 +200,11 @@ main {
     overflow: hidden;
 }
 
+/* upgrade */
+#upgrade {
+    padding: 0 16px;
+}
+
 /* upgrade button */
 button {
     background-color: transparent;
