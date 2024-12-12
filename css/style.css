@@ -89,6 +89,11 @@ p, span, li, button {
     line-height: var(--font-lh-body);
     color: var(--color-neutral-grey);
 }
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+
 /* icons container */
 .icon-box {
     min-width: 12px;
