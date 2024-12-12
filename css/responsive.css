@@ -145,6 +145,8 @@
 
 }
 
+
+
 /* 'md' query (tablet landscape / laptop) */
 @media screen and (min-width: 1025px) {
 
@@ -155,5 +157,20 @@
 
     #content {
         flex-basis: 72%;
+    }
+}
+
+
+
+/* 'xl' query (desktop / wide screens) */
+@media screen and (min-width: 1441px) {
+
+    header {
+        flex-basis: 20%;
+        padding: 12px 0;
+    }
+
+    #content {
+        flex-basis: 80%;
     }
 }
