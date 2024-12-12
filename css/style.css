@@ -172,7 +172,6 @@ footer {
 #content {
     flex-basis: 88%;
     height: 88vh;
-    padding-bottom: 40px;
     background-color: var(--color-neutral-black-800);
 }
 #content #upgrade {
@@ -183,8 +182,9 @@ footer {
 main {
     height: 92%;
     width: 100%;
-
+    padding: 12px 0 40px;
     overflow: auto;
+    gap: 48px;
 
     background-color: var(--color-neutral-black-800);
 }
@@ -236,12 +236,6 @@ button {
 
 /* --- main --- */
 
-/* main */
-main {
-    padding: 0 4%;
-    gap: 48px;
-}
-
 /* nav primary list */
 
 #nav-primary > ul {
@@ -275,7 +269,7 @@ main {
 /* -- footer -- */
 
 footer {
-    padding: 0 16px;
+    padding: 8px 16px;
 }
 
 /* player left icons */
@@ -302,7 +296,7 @@ footer .player-current > figure {
 
 /* player center */
 .player-center {
-    gap: 12px;
+    gap: 4px;
     flex-basis: 40%;
 }
 
