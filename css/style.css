@@ -284,6 +284,7 @@ footer .player-left-actions i {
 /* player left */
 .player-left {
     gap: 16px;
+    flex-basis: 40%;
 }
 
 /* player current */
@@ -300,6 +301,7 @@ footer .player-current > figure {
 /* player center */
 .player-center {
     gap: 12px;
+    flex-basis: 40%;
 }
 
 /* player center actions */
