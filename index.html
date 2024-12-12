@@ -78,7 +78,7 @@
             <div id="upgrade" class="flex-row flex-end align-i-center">
                 <button class="flex-row perfect-center">Effettua l'upgrade</button>
             </div>
-
+            <!-- -- MAIN -- -->
             <main class="flex-column align-i-center">
                 <nav id="nav-primary">
                     <ul class="flex-row wrap perfect-center">
@@ -90,8 +90,8 @@
                         <li>Scopri</li>
                     </ul>
                 </nav>
-
-                <section id="recently-played" class="flex-column align-i-center">
+                <!-- -- RECENTLY PLAYED -- -->
+                <section id="recently-played" class="flex-column">
                     <p class="text-headings">Recently Played</p>
                     <div class="song-container flex-row wrap justify-center">
                         <!-- card 1 -->
@@ -156,12 +156,33 @@
                         </div>
                     </div>
                 </section>
-
-                <section id="suggestions">
-                    <p>Creato per John Doe</p>
-                    <p>Più ascolti, più accurati saranno i tuoi suggerimenti.</p>
-                    <div class="song-container">
-
+                <!-- -- SUGGESTIONS -- -->
+                <section id="suggestions" class="flex-column">
+                    <div class="suggestions-header flex-column">
+                        <p class="text-headings">Recently Played</p>
+                        <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                    </div>
+                    <div class="song-container flex-row wrap justify-center">
+                        <!-- card 1 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/metal_lifting.jpg" alt="heavy metal covers">
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">Heavy Metal</p>
+                                <p class="card-subtitle">Subtitle</p>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/stranger.jpeg" alt="stranger things ost">
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">Stranger Things Vol. 1 (a Netflix Series Soundtrack)</p>
+                                <p class="card-subtitle">Kyle Dixon & Michael Stein</p>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>

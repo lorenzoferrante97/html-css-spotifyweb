@@ -166,6 +166,8 @@ footer {
 #content {
     flex-basis: 88%;
     height: 88vh;
+    padding-bottom: 40px;
+    background-color: var(--color-neutral-black-800);
 }
 #content #upgrade {
     height: 12%;
@@ -240,14 +242,19 @@ main {
 }
 
 
-/* -- Recently Played -- */
+/* -- Recently Played + Suggestions -- */
 
 /* recently-played */
-#recently-played {
+#recently-played, #suggestions {
     gap: 28px;
 }
 /* song container */
 .song-container {
     gap: 12px;
     text-align: center;
+}
+
+/* suggestions header */
+#suggestions .suggestions-header {
+    gap: 8px;
 }
