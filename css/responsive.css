@@ -218,6 +218,7 @@
 /* 'xl' query (desktop / wide screens) */
 @media screen and (min-width: 1441px) {
 
+    /* containers */
     header {
         flex-basis: 20%;
         padding: 12px 0;
@@ -225,5 +226,12 @@
 
     #content {
         flex-basis: 80%;
+    }
+
+
+    /* card */
+    .card {
+        flex-basis: calc((100% / 4) - 12px);
+        gap: 16px;
     }
 }
