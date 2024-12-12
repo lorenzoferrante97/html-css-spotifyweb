@@ -268,3 +268,27 @@ main {
 #artists-popular .card-cover {
     border-radius: 50%;
 }
+
+
+/* -- footer -- */
+
+/* player left icons */
+footer .player-left-actions i {
+    color: var(--color-neutral-grey);
+}
+
+/* player left */
+.player-left {
+    gap: 16px;
+}
+
+/* player current */
+footer .player-current {
+    gap: 8px;
+}
+
+/* current cover img */
+footer .player-current > figure {
+    width: 100%;
+    max-width: 28px;
+}
