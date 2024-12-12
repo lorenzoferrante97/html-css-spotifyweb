@@ -100,6 +100,14 @@ p, span, li, button {
     justify-content: center;
     align-items: center;
 }
+/* card */
+.card {
+    flex-basis: calc((100% / 2) - 12px);
+    gap: 16px;
+}
+.card .card-info {
+    gap: 4px;
+}
 
 /* flex rules */
 
@@ -219,6 +227,7 @@ button {
 /* main */
 main {
     padding: 0 4%;
+    gap: 48px;
 }
 
 /* nav primary list */
@@ -228,17 +237,14 @@ main {
 }
 
 
+/* -- Recently Played -- */
+
+/* recently-played */
+#recently-played {
+    gap: 28px;
+}
 /* song container */
 .song-container {
     gap: 12px;
     text-align: center;
-}
-
-/* card */
-.card {
-    flex-basis: calc((100% / 2) - 12px);
-    gap: 16px;
-}
-.card .card-info {
-    gap: 4px;
 }
