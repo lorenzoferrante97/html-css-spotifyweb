@@ -177,12 +177,13 @@ footer {
 #content #upgrade {
     height: 12%;
     width: 100%;
+    padding: 0 12px;
     background-color: var(--color-neutral-black-900);
 }
 main {
     height: 92%;
     width: 100%;
-    padding: 12px 0 40px;
+    padding: 12px 12px 40px;
     overflow: auto;
     gap: 48px;
 
@@ -220,11 +221,6 @@ main {
     border-radius: 50%;
     background-color: var(--color-neutral-lightgrey);
     overflow: hidden;
-}
-
-/* upgrade */
-#upgrade {
-    padding: 0 16px;
 }
 
 /* upgrade button */
