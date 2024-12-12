@@ -39,6 +39,7 @@
 /* reset img */
 figure {
     display: inline-block;
+    overflow: hidden;
 }
 img {
     display: block;
@@ -261,4 +262,10 @@ main {
 /* home sections header */
 .home-sections-header {
     gap: 8px;
+}
+
+/* artists img */
+#artists-popular .card-cover {
+    width: 100%;
+    border-radius: 50%;
 }
