@@ -38,7 +38,7 @@
         flex-direction: column;
     }
     /* display flex-row elements */
-    .playlist-add {
+    .playlist-add, .player-right {
         display: flex;
         flex-direction: row;
     }
@@ -123,4 +123,24 @@
     .menu-download {
         border-bottom: 1px solid var(--color-neutral-grey);
     }
+
+    /* -- footer -- */
+    .player-left, .player-right {
+        flex-basis: 20%;
+    }
+    .player-center {
+        flex-basis: 40%;
+    }
+
+
+    /* player right */
+    .player-right {
+        gap: 8px;
+    }
+    /* player right volume */
+    .player-right-volume {
+        flex-basis: 100%;
+        gap: 4px;
+    }
+
 }
