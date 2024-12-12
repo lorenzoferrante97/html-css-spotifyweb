@@ -144,3 +144,9 @@
     }
 
 }
+
+/* 'md' query (tablet landscape / laptop) */
+@media screen and (min-width: 1025px) {
+
+    
+}
