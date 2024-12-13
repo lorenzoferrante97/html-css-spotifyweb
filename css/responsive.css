@@ -164,6 +164,10 @@
         gap: 4px;
     }
 
+    /* current cover img */
+    footer .player-current > figure {
+        max-width: 40px;
+    }
 }
 
 
@@ -277,6 +281,11 @@
         border-color: transparent;
         cursor: pointer;
     }
+
+    /* current cover img */
+    footer .player-current > figure {
+        max-width: 60px;
+    }
 }
 
 
@@ -299,5 +308,10 @@
     .card {
         flex-basis: calc((100% / 4) - 12px);
         gap: 16px;
+    }
+
+    /* current cover img */
+    footer .player-current > figure {
+        max-width: 80px;
     }
 }
