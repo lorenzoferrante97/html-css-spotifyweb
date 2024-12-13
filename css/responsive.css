@@ -196,7 +196,7 @@
     }
 
     /* display flex elements */
-    .player-right-volume {
+    .player-right-volume, .player-left-actions {
         display: flex;
     }
 
