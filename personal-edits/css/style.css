@@ -41,6 +41,10 @@
 figure {
     display: inline-block;
     overflow: hidden;
+    border-radius: 12px;
+}
+footer figure {
+    border-radius: 4px; 
 }
 img {
     display: block;
@@ -308,6 +312,7 @@ footer .player-current {
 /* current cover img */
 footer .player-current > figure {
     width: 100%;
+    aspect-ratio: 1;
     max-width: 28px;
 }
 
