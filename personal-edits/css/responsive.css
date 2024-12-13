@@ -35,6 +35,10 @@
     footer {
         height: 8%;
     }
+    #content #upgrade {
+        height: 80px;
+        padding: 0 24px;
+    }
 
     .icon-box.xl {
         width: 32px;
@@ -255,7 +259,7 @@
     }
     .card-cover:hover .icon-box  {
         display: flex;
-        z-index: 2;
+        z-index: 5;
         cursor: pointer;
     }
 

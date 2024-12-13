@@ -194,13 +194,15 @@ footer {
 }
 #content #upgrade {
     height: 12%;
-    width: 100%;
-    padding: 0 12px;
+    width: 88%;
+    margin: 12px auto 0px;
+    padding: 0 16px;
     background-color: var(--color-neutral-black-900-alpha);
     position: sticky;
-    top: 0;
+    top: 12px;
     backdrop-filter: blur(12px);
     z-index: 9;
+    border-radius: 900px;
 }
 main {
     height: 88%;
@@ -250,6 +252,7 @@ button {
     padding: 8px 24px;
     border-radius: 900px;
     color: var(--color-neutral-white);
+    width: 100%;
 }
 
 /* nav primary list */
