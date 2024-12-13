@@ -297,11 +297,17 @@
         color: var(--color-neutral-black);
         border-color: transparent;
         cursor: pointer;
+        max-width: 100%;
     }
 
     /* current cover img */
     footer .player-current > figure {
         max-width: 60px;
+    }
+
+    /* player center actions */
+    .player-center-actions {
+        gap: 24px;
     }
 }
 
