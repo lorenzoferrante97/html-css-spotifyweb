@@ -36,7 +36,7 @@
         height: 8%;
     }
     #content #upgrade {
-        height: 80px;
+        height: 68px;
         padding: 0 24px;
     }
 
@@ -176,6 +176,14 @@
     footer .player-current > figure {
         max-width: 40px;
     }
+
+    .card-cover:hover .img-visible {
+        max-width: 100%;
+    }
+
+    button {
+        max-width: 72%;
+    }
 }
 
 
@@ -282,6 +290,7 @@
     /* button hover */
     button {
         transition: 0.3s ease-out;
+        max-width: 40%;
     }
     button:hover {
         background-color: var(--color-accent);
