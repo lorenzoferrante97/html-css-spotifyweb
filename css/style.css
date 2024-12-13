@@ -8,7 +8,7 @@
     /* colors */
     --color-neutral-black: #000000;
     --color-neutral-black-900: #060606;
-    --color-neutral-black-900-alpha: rgba(6, 6, 6, 0.3);
+    --color-neutral-black-900-alpha: rgba(6, 6, 6, 0.6);
     --color-neutral-black-800: #101010;
     --color-neutral-black-700: #141414;
     --color-neutrasl-darkgrey: #343434;
@@ -191,6 +191,7 @@ footer {
     background-color: var(--color-neutral-black-900-alpha);
     position: sticky;
     top: 0;
+    backdrop-filter: blur(12px);
 }
 main {
     height: 88%;
