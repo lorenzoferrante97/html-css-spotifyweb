@@ -240,6 +240,7 @@
         background-color: var(--color-neutral-black-900-alpha);
         backdrop-filter: blur(2px);
         width: 100%;
+        transform: 0.3s ease-out;
     }
     .card-cover .icon-box i {
         font-size: 40px;
@@ -248,6 +249,22 @@
         display: flex;
         z-index: 2;
         cursor: pointer;
+    }
+
+    /* hover */
+    li, .playlist-add p, li p, .menu-download p {
+        transition: 0.3s ease-out;
+    }
+    .playlist-add:hover .icon-box {
+        background-color: var(--color-accent);
+        cursor: pointer;
+    }
+    li:hover, li:hover p, .playlist-add:hover p, .menu-download:hover p {
+        color: var(--color-accent);
+        cursor: pointer;
+    }
+    .icon-box:hover i {
+        color: var(--color-neutral-white);
     }
 }
 
