@@ -227,6 +227,28 @@
         flex-basis: calc((100% / 3) - 12px);
         gap: 16px;
     }
+
+    /* hover on card covers */
+    .card-cover {
+        position: relative;
+    }
+    .card-cover .icon-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--color-neutral-black-900-alpha);
+        backdrop-filter: blur(2px);
+        width: 100%;
+    }
+    .card-cover .icon-box i {
+        font-size: 40px;
+    }
+    .card-cover:hover .icon-box  {
+        display: flex;
+        z-index: 2;
+        cursor: pointer;
+    }
 }
 
 
