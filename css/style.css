@@ -333,13 +333,22 @@ footer .player-current > figure {
     height: 4px;
     background-color: var(--color-neutral-grey);
     border-radius: 900px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 /* timebar listened */
 .timebar .timebar-listened {
     height: 100%;
     width: 30%;
     background-color: var(--color-accent);
+    border-radius: 900px;
+}
+/* timebar pointer */
+.timebar .timebar-listened .timebar-pointer {
+    height: 300%;
+    aspect-ratio: 1;
+    background-color: var(--color-neutral-white);
+    border-radius: 50%;
+    box-shadow: -2px 0px 12px var(--color-neutral-black);
 }
 
 /* end code */
