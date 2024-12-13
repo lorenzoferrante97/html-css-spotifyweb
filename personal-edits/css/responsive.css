@@ -1,0 +1,317 @@
+/* ---------- MOBILE FIRST ---------- */
+
+/* 's' query (smartphone landscape / tablet portrait) */
+@media screen and (min-width: 577px) {
+
+    /* --- global styles --- */
+    p, span, li {
+        font-size: var(--font-size-m);
+        font-weight: var(--font-weight-s);
+        line-height: var(--font-lh-body);
+        color: var(--color-neutral-grey);
+    }
+    .text-headings {
+        font-size: var(--font-size-xl);
+        font-weight: var(--font-weight-l);
+        line-height: var(--font-lh-headings);
+        color: var(--color-neutral-white);
+    }
+    .text-small {
+        font-size: var(--font-size-s);
+        font-weight: var(--font-weight-s);
+        line-height: var(--font-lh-body);
+        color: var(--color-neutral-grey);
+    }
+
+    /* containers */
+    header {
+        flex-basis: 36%;
+        height: 92%;
+    }
+    #content {
+        flex-basis: 64%;
+        height: 92%;
+    }
+    footer {
+        height: 8%;
+    }
+
+    .icon-box.xl {
+        width: 32px;
+    }
+
+
+
+    /* display inline-block elements */
+    #logo-extended,
+    .nav-label,
+    .menu-download > p,
+    .menu-account > p {
+        display: inline-block;
+    }
+    /* display flex-column elements */
+    .menu-playlist, .playlist-list ul {
+        display: flex;
+        flex-direction: column;
+    }
+    /* display flex-row elements */
+    .playlist-add,
+    .player-right,
+    .player-center-time p, 
+    .player-center-actions span {
+        display: flex;
+        flex-direction: row;
+    }
+    /* hide elements */
+    #logo-mark, .player-right-volume {
+        display: none;
+    }
+
+
+
+    /* logo */
+    .logo-box {
+        width: 60%;
+        max-width: none;
+        padding-left: 16px;
+    }
+
+    /* menu main alignment */
+    .menu-main {
+        align-items: stretch;
+    }
+
+    /* nav main list */
+    .nav-main > ul {
+        align-items: stretch;
+    }
+
+    /* nav main list elements */
+    .nav-main > ul > li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 4px 8px;
+        padding-left: 16px;
+        gap: 8px;
+        border-left: 3px solid transparent;
+    }
+
+    /* active nav element */
+    .nav-main .nav-active {
+        border-color: var(--color-accent);
+    }
+    .nav-main .nav-active p {
+        color: var(--color-neutral-white);
+    }
+
+    /* add playlist */
+    .icon-box.addplaylist {
+        background-color: var(--color-neutral-lightgrey);
+        color: var(--color-neutral-black);
+    }
+
+    /* playlist list elements */
+    .playlist-list ul li {
+        padding: 4px 0px;
+    }
+    /* menu playlist */
+    .menu-playlist {
+        gap: 12px;
+        padding-left: 16px;
+    }
+    /* playlist add */
+    .playlist-add {
+        align-items: center;
+        gap: 8px;
+    }
+    /* playlist list */
+    .playlist-list ul {
+        gap: 4px;
+    }
+
+    /* menu sec */
+    .menu-sec {
+        align-items: stretch;
+        padding: 0 16px;
+    }
+    /* menu download & menu-account */
+    .menu-account, .menu-download {
+        gap: 8px;
+        padding: 12px 0px;
+    }
+    .menu-download {
+        border-bottom: 1px solid var(--color-neutral-grey);
+    }
+
+    /* -- footer -- */
+    .player-left, .player-right {
+        flex-basis: 20%;
+    }
+    .player-center {
+        flex-basis: 40%;
+    }
+
+
+    /* player right */
+    .player-right {
+        justify-content: flex-end;
+        gap: 8px;
+    }
+    /* player right volume */
+    .player-right-volume {
+        flex-basis: 100%;
+        gap: 4px;
+    }
+
+    /* current cover img */
+    footer .player-current > figure {
+        max-width: 40px;
+    }
+}
+
+
+
+/* 'md' query (tablet landscape / laptop) */
+@media screen and (min-width: 1025px) {
+
+    /* global styles */
+    .text-headings {
+        font-size: var(--font-size-xl);
+        font-weight: var(--font-weight-l);
+        line-height: var(--font-lh-headings);
+        color: var(--color-neutral-white);
+    }
+    .text-big {
+        font-size: var(--font-size-l);
+        font-weight: var(--font-weight-m);
+        line-height: var(--font-lh-headings);
+        color: var(--color-neutral-white);
+    }
+    .text-small {
+        font-size: var(--font-size-s);
+        font-weight: var(--font-weight-s);
+        line-height: var(--font-lh-body);
+        color: var(--color-neutral-grey);
+    }
+
+    /* display flex elements */
+    .player-right-volume, .player-left-actions {
+        display: flex;
+    }
+
+
+    /* containers */
+    header {
+        flex-basis: 28%;
+        padding: 12px 0;
+        height: 88%;
+    }
+    #content {
+        flex-basis: 72%;
+        height: 88%;
+    }
+    footer {
+        height: 12%;
+    }
+
+
+
+    #nav-primary > ul {
+        gap: 20px;
+    }
+
+    /* song container */
+    .song-container {
+        justify-content: flex-start;
+    }
+
+    /* card */
+    .card {
+        flex-basis: calc((100% / 3) - 12px);
+        gap: 16px;
+    }
+
+    /* hover on card covers */
+    .card-cover {
+        position: relative;
+    }
+    .card-cover .icon-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--color-neutral-black-900-alpha);
+        backdrop-filter: blur(2px);
+        width: 100%;
+        transform: 0.3s ease-out;
+    }
+    .card-cover .icon-box i {
+        font-size: 40px;
+    }
+    .card-cover:hover .icon-box  {
+        display: flex;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    /* hover */
+    li, .playlist-add p, li p, .menu-download p {
+        transition: 0.3s ease-out;
+    }
+    .playlist-add:hover .icon-box {
+        background-color: var(--color-accent);
+        cursor: pointer;
+    }
+    li:hover, li:hover p, .playlist-add:hover p, .menu-download:hover p {
+        color: var(--color-accent);
+        cursor: pointer;
+    }
+    .icon-box:hover i {
+        color: var(--color-neutral-white);
+    }
+
+    /* button hover */
+    button {
+        transition: 0.3s ease-out;
+    }
+    button:hover {
+        background-color: var(--color-accent);
+        color: var(--color-neutral-black);
+        border-color: transparent;
+        cursor: pointer;
+    }
+
+    /* current cover img */
+    footer .player-current > figure {
+        max-width: 60px;
+    }
+}
+
+
+
+/* 'xl' query (desktop / wide screens) */
+@media screen and (min-width: 1441px) {
+
+    /* containers */
+    header {
+        flex-basis: 20%;
+        padding: 12px 0;
+    }
+
+    #content {
+        flex-basis: 80%;
+    }
+
+
+    /* card */
+    .card {
+        flex-basis: calc((100% / 4) - 12px);
+        gap: 16px;
+    }
+
+    /* current cover img */
+    footer .player-current > figure {
+        max-width: 80px;
+    }
+}

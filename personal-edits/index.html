@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    ciao
+    <section class="wrapper flex-row wrap">
+        <header class="flex-column between">
+            <section class="menu-main flex-column align-i-center">
+                <div class="logo-box">
+                    <figure id="logo-extended" class="hide">
+                        <img src="img/logo.svg" alt="logo Shopify con testo">
+                    </figure>
+                    <figure id="logo-mark">
+                        <img src="img/logo-small.svg" alt="marchio Shopify">
+                    </figure>
+                </div>
+                <nav class="nav-main">
+                    <ul class="flex-column align-i-center">
+                        <li class="nav-active">
+                            <span class="icon-box"><i class="fa-solid fa-house"></i></span>
+                            <p class="nav-label hide">Home</p>
+                        </li>
+                        <li>
+                            <span class="icon-box"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <p class="nav-label hide">Cerca</p>
+                        </li>
+                        <li>
+                            <span class="icon-box"><i class="fa-solid fa-bars-staggered"></i></span>
+                            <p class="nav-label hide">La tua libreria</p>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-playlist hide">
+                    <p class="text-big text-uppercase">Playlist</p>
+                    <div class="playlist-add">
+                        <span class="icon-box xl addplaylist">
+                            <i class="fa-solid fa-plus"></i>
+                        </span>
+                        <p>Crea Playlist</p>
+                    </div>
+                    <nav class="playlist-list">
+                        <ul>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <section class="menu-sec flex-column align-i-center">
+                <div class="menu-download flex-row">
+                    <span class="icon-box"><i class="fa-solid fa-circle-down"></i></span>
+                    <p class="hide">Installa App</p>
+                </div>
+                <div class="menu-account flex-row">
+                    <figure>
+                        <img src="img/profile.svg" alt="immagine profilo utente">
+                    </figure>
+                    <p class="text-big hide">John Doe</p>
+                </div>
+            </section>
+        </header>
+
+        <section id="content">
+            <div id="upgrade" class="flex-row flex-end align-i-center">
+                <button class="flex-row perfect-center text-uppercase">Effettua l'upgrade</button>
+            </div>
+            <!-- -- MAIN -- -->
+            <main class="flex-column">
+                <nav id="nav-primary">
+                    <ul class="flex-row wrap perfect-center text-uppercase">
+                        <li class="nav-primary-current">In evidenza</li>
+                        <li>Podcast</li>
+                        <li>Classifiche</li>
+                        <li>Generi e Mood</li>
+                        <li>Nuove Uscite</li>
+                        <li>Scopri</li>
+                    </ul>
+                </nav>
+                <!-- -- RECENTLY PLAYED -- -->
+                <section id="recently-played" class="flex-column">
+                    <p class="text-headings">Recently Played</p>
+                    <div class="song-container flex-row wrap justify-center">
+                        <!-- card 1 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/metal_lifting.jpg" alt="heavy metal covers">
+                                <span class="icon-box play hide"><i class="fa-solid fa-play"></i></span>
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">Heavy Metal</p>
+                                <p class="card-subtitle">Subtitle</p>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/stranger.jpeg" alt="stranger things ost">
+                                <span class="icon-box play hide"><i class="fa-solid fa-play"></i></span>
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">Stranger Things Vol. 1 (a Netflix Series Soundtrack)</p>
+                                <p class="card-subtitle">Kyle Dixon & Michael Stein</p>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/aquietplace.jpeg" alt="a quiet place ost">
+                                <span class="icon-box play hide"><i class="fa-solid fa-play"></i></span>
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">A Quiet Place</p>
+                                <p class="card-subtitle">Subtitle</p>
+                            </div>
+                        </div>
+                        <!-- card 4 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/split.jpeg" alt="split ost">
+                                <span class="icon-box play hide"><i class="fa-solid fa-play"></i></span>
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">Split</p>
+                                <p class="card-subtitle">Subtitle</p>
+                            </div>
+                        </div>
+                        <!-- card 5 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/cure.jpeg" alt="a cure for wellness ost">
+                                <span class="icon-box play hide"><i class="fa-solid fa-play"></i></span>
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">A cure fro Wellness</p>
+                                <p class="card-subtitle">Subtitle</p>
+                            </div>
+                        </div>
+                        <!-- card 6 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/sinister.jpeg" alt="sinister ost">
+                                <span class="icon-box play hide"><i class="fa-solid fa-play"></i></span>
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">Sinister</p>
+                                <p class="card-subtitle">Subtitle</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- -- SUGGESTIONS -- -->
+                <section id="suggestions" class="flex-column">
+                    <div class="home-sections-header flex-column">
+                        <p class="text-headings">Creato per John Doe</p>
+                        <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                    </div>
+                    <div class="song-container flex-row wrap justify-center">
+                        <!-- card 1 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/radar.jpeg" alt="Release Radar">
+                                <span class="icon-box play hide"><i class="fa-solid fa-play"></i></span>
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">Release Radar</p>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/mixdaily.jpeg" alt="Daily Mix">
+                                <span class="icon-box play hide"><i class="fa-solid fa-play"></i></span>
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">Daily Mix</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- -- POPULAR ARTISTS -- -->
+                <section id="artists-popular" class="flex-column">
+                    <div class="home-sections-header flex-column">
+                        <p class="text-headings">Artisti più popolari</p>
+                        <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                    </div>
+                    <div class="song-container flex-row wrap justify-center">
+                        <!-- card 1 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/youg.jpeg" alt="Lana del Rey">
+                                <span class="icon-box play hide"><i class="fa-solid fa-play"></i></span>
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">Lana del Rey</p>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="card flex-column align-i-center">
+                            <figure class="card-cover">
+                                <img src="img/einaudi.jpeg" alt="Einaudi">
+                                <span class="icon-box play hide"><i class="fa-solid fa-play"></i></span>
+                            </figure>
+                            <div class="card-info flex-column perfect-center">
+                                <p class="card-title text-big">Ludovico Einaudi</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </section>
+        <footer class="flex-row between">
+            <section class="player-left flex-row between align-i-center">
+                <div class="player-current flex-row">
+                    <figure>
+                        <img src="img/sinister.jpeg" alt="current song">
+                    </figure>
+                    <div class="current-info">
+                        <p class="text-big">Sinister</p>
+                        <p class="text-small">Brano Nome</p>
+                    </div>
+                </div>
+                <div class="player-left-actions flex-column hide">
+                    <span class="icon-box"><i class="fa-regular fa-heart"></i></span>
+                    <span class="icon-box"><i class="fa-regular fa-folder"></i></span>
+                </div>
+            </section>
+
+            <section class="player-center flex-column perfect-center">
+                <div class="player-center-actions flex-row perfect-center">
+                    <span class="icon-box hide"><i class="fa-solid fa-shuffle"></i></span>
+                    <span class="icon-box"><i class="fa-solid fa-backward-step"></i></span>
+                    <span class="icon-box play"><i class="fa-solid fa-play"></i></span>
+                    <span class="icon-box"><i class="fa-solid fa-forward-step"></i></span>
+                    <span class="icon-box hide"><i class="fa-solid fa-repeat"></i></span>
+                </div>
+                <div class="player-center-time flex-row perfect-center">
+                    <p class="text-small hide">0:25</p>
+                    <div class="timebar">
+                        <div class="timebar-listened flex-row align-i-center flex-end">
+                            <div class="timebar-pointer"></div>
+                        </div>
+                    </div>
+                    <p class="text-small hide">4:35</p>
+                </div>
+            </section>
+
+            <section class="player-right flex-row between align-i-center hide">
+                <span class="icon-box"><i class="fa-solid fa-list-ul"></i></span>
+                <span class="icon-box"><i class="fa-solid fa-display"></i></span>
+                <div class="player-right-volume flex-row between align-i-center">
+                    <span class="icon-box"><i class="fa-solid fa-volume-high"></i></i></span>
+                    <div class="player-center-time flex-row perfect-center">
+                        <div class="timebar">
+                            <div class="timebar-listened flex-row align-i-center flex-end">
+                                <div class="timebar-pointer"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </section>
+</body>
+
+</html>
