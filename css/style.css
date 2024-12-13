@@ -60,6 +60,14 @@ html {
     font-family: "Urbanist", sans-serif;
 }
 
+::-webkit-scrollbar {
+    background-color: var(--color-neutral-black-800);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-neutral-white);
+    border-radius: 900px;
+}
+
 
 
 
