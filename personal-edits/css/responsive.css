@@ -164,6 +164,10 @@
         gap: 4px;
     }
 
+    footer {
+        padding-bottom: 16px;
+    }
+
     /* current cover img */
     footer .player-current > figure {
         max-width: 40px;

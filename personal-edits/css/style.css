@@ -284,6 +284,11 @@ footer {
     padding-bottom: 8px;
 }
 
+/* player content */
+.player-content {
+    padding: 0 8px;
+}
+
 /* player left icons */
 footer .player-left-actions i {
     color: var(--color-neutral-grey);
