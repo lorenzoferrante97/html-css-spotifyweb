@@ -26,9 +26,14 @@
     /* containers */
     header {
         flex-basis: 36%;
+        height: 92%;
     }
     #content {
         flex-basis: 64%;
+        height: 92%;
+    }
+    footer {
+        height: 8%;
     }
 
     .icon-box.xl {
@@ -196,10 +201,14 @@
     header {
         flex-basis: 28%;
         padding: 12px 0;
+        height: 88%;
     }
-
     #content {
         flex-basis: 72%;
+        height: 88%;
+    }
+    footer {
+        height: 12%;
     }
 
 
