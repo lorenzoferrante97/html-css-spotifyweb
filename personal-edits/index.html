@@ -12,7 +12,6 @@
 </head>
 
 <body>
-    ciao
     <section class="wrapper flex-row wrap">
         <header class="flex-column between">
             <section class="menu-main flex-column align-i-center">
@@ -223,56 +222,65 @@
                 </section>
             </main>
         </section>
-        <footer class="flex-row between">
-            <section class="player-left flex-row between align-i-center">
-                <div class="player-current flex-row">
-                    <figure>
-                        <img src="img/sinister.jpeg" alt="current song">
-                    </figure>
-                    <div class="current-info">
-                        <p class="text-big">Sinister</p>
-                        <p class="text-small">Brano Nome</p>
+        <footer class="flex-column between">
+            <div class="player-center-time">
+                <div class="timebar">
+                    <div class="timebar-listened flex-row align-i-center flex-end">
+
                     </div>
                 </div>
-                <div class="player-left-actions flex-column hide">
-                    <span class="icon-box"><i class="fa-regular fa-heart"></i></span>
-                    <span class="icon-box"><i class="fa-regular fa-folder"></i></span>
-                </div>
-            </section>
-
-            <section class="player-center flex-column perfect-center">
-                <div class="player-center-actions flex-row perfect-center">
-                    <span class="icon-box hide"><i class="fa-solid fa-shuffle"></i></span>
-                    <span class="icon-box"><i class="fa-solid fa-backward-step"></i></span>
-                    <span class="icon-box play"><i class="fa-solid fa-play"></i></span>
-                    <span class="icon-box"><i class="fa-solid fa-forward-step"></i></span>
-                    <span class="icon-box hide"><i class="fa-solid fa-repeat"></i></span>
-                </div>
-                <div class="player-center-time flex-row perfect-center">
-                    <p class="text-small hide">0:25</p>
-                    <div class="timebar">
-                        <div class="timebar-listened flex-row align-i-center flex-end">
-                            <div class="timebar-pointer"></div>
+            </div>
+            <div class="flex-row between">
+                <section class="player-left flex-row between align-i-center">
+                    <div class="player-current flex-row">
+                        <figure>
+                            <img src="img/sinister.jpeg" alt="current song">
+                        </figure>
+                        <div class="current-info">
+                            <p class="text-big">Sinister</p>
+                            <p class="text-small">Brano Nome</p>
                         </div>
                     </div>
-                    <p class="text-small hide">4:35</p>
-                </div>
-            </section>
-
-            <section class="player-right flex-row between align-i-center hide">
-                <span class="icon-box"><i class="fa-solid fa-list-ul"></i></span>
-                <span class="icon-box"><i class="fa-solid fa-display"></i></span>
-                <div class="player-right-volume flex-row between align-i-center">
-                    <span class="icon-box"><i class="fa-solid fa-volume-high"></i></i></span>
-                    <div class="player-center-time flex-row perfect-center">
+                    <div class="player-left-actions flex-column hide">
+                        <span class="icon-box"><i class="fa-regular fa-heart"></i></span>
+                        <span class="icon-box"><i class="fa-regular fa-folder"></i></span>
+                    </div>
+                </section>
+    
+                <section class="player-center flex-column perfect-center">
+                    <div class="player-center-actions flex-row perfect-center">
+                        <span class="icon-box hide"><i class="fa-solid fa-shuffle"></i></span>
+                        <span class="icon-box"><i class="fa-solid fa-backward-step"></i></span>
+                        <span class="icon-box play"><i class="fa-solid fa-play"></i></span>
+                        <span class="icon-box"><i class="fa-solid fa-forward-step"></i></span>
+                        <span class="icon-box hide"><i class="fa-solid fa-repeat"></i></span>
+                    </div>
+                    <div class="player-center-time flex-row perfect-center hide">
+                        <p class="text-small hide">0:25</p>
                         <div class="timebar">
                             <div class="timebar-listened flex-row align-i-center flex-end">
                                 <div class="timebar-pointer"></div>
                             </div>
                         </div>
+                        <p class="text-small hide">4:35</p>
                     </div>
-                </div>
-            </section>
+                </section>
+    
+                <section class="player-right flex-row between align-i-center hide">
+                    <span class="icon-box"><i class="fa-solid fa-list-ul"></i></span>
+                    <span class="icon-box"><i class="fa-solid fa-display"></i></span>
+                    <div class="player-right-volume flex-row between align-i-center">
+                        <span class="icon-box"><i class="fa-solid fa-volume-high"></i></i></span>
+                        <div class="player-center-time flex-row perfect-center">
+                            <div class="volumebar">
+                                <div class="volumebar-listened flex-row align-i-center flex-end">
+                                    <div class="volumebar-pointer"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </footer>
     </section>
 </body>
